@@ -10,8 +10,17 @@ class App extends Component {
         this.state = {
             todos: []
         };
-        this.addTodo = this.addTodo.bind(this)
+        this.addTodo = this.addTodo.bind(this);
+        this.removeTask = this.removeTask.bind(this);
 
+    }
+
+    async removeTask(index) {
+        await this.setState({
+            todos: this.state.todos.filter((elem, i) => {
+                return i !== index;
+            })
+        });
     }
 
     async addTodo(todo) {
@@ -23,7 +32,7 @@ class App extends Component {
       <div className="App">
           <Header/>
           <NewNote onAddTodo={this.addTodo}/>
-          <Task onShow={this.state.todos}/>
+          <Task onShow={this.state.todos} onDelete={this.removeTask}/>
       </div>
     );
   }
