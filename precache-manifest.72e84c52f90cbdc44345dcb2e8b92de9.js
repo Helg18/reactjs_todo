@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/reactjs_todo/static/media/fa-regular-400.deb8619e.ttf"
   },
   {
-    "revision": "b89c6c51aa2999159a6667f97a46a346",
-    "url": "/reactjs_todo/static/media/fa-brands-400.b89c6c51.woff2"
-  },
-  {
     "revision": "8086e197694282b26c7b729945ecc377",
     "url": "/reactjs_todo/static/media/fa-solid-900.8086e197.woff2"
+  },
+  {
+    "revision": "b89c6c51aa2999159a6667f97a46a346",
+    "url": "/reactjs_todo/static/media/fa-brands-400.b89c6c51.woff2"
   },
   {
     "revision": "dd4ff1196905f0585aef2c80486869e9",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/reactjs_todo/static/media/fa-solid-900.52b8345b.woff"
   },
   {
-    "revision": "7d43b9ae0b8bb1d0dc425d78dc577b0a",
-    "url": "/reactjs_todo/static/media/fa-brands-400.7d43b9ae.eot"
-  },
-  {
     "revision": "50a544b5ad4d512e8db3cdc089823a00",
     "url": "/reactjs_todo/static/media/fa-brands-400.50a544b5.ttf"
+  },
+  {
+    "revision": "7d43b9ae0b8bb1d0dc425d78dc577b0a",
+    "url": "/reactjs_todo/static/media/fa-brands-400.7d43b9ae.eot"
   },
   {
     "revision": "734248d027cbaac7f03c0d931ec95593",
